@@ -1,0 +1,95 @@
+Exception:
+
+com.install4j.api.beans.UndefinedVariableException: installer:convert
+	at com.install4j.runtime.installer.InstallerVariables.handleError(InstallerVariables.java:1295)
+	at com.install4j.runtime.installer.InstallerVariables$InstallerReplacementCallback.getReplacement(InstallerVariables.java:1228)
+	at com.install4j.runtime.util.StringUtil.replaceVariable(StringUtil.java:94)
+	at com.install4j.runtime.util.StringUtil.replaceVariable(StringUtil.java:64)
+	at com.install4j.runtime.installer.InstallerVariables.replaceVariables(InstallerVariables.java:425)
+	at com.install4j.runtime.installer.InstallerVariables.replaceVariables(InstallerVariables.java:414)
+	at com.install4j.runtime.installer.InstallerVariables.replaceVariables(InstallerVariables.java:410)
+	at com.install4j.runtime.installer.InstallerVariables.replaceVariables(InstallerVariables.java:450)
+	at com.install4j.api.beans.AbstractBean.replaceVariables(AbstractBean.java:91)
+	at com.install4j.runtime.beans.actions.misc.RunExecutableAction.getExecutable(RunExecutableAction.java:62)
+	at com.install4j.runtime.beans.actions.misc.RunExecutableAction.execute(RunExecutableAction.java:312)
+	at com.install4j.runtime.beans.actions.SystemInstallOrUninstallAction.install(SystemInstallOrUninstallAction.java:29)
+	at com.install4j.runtime.installer.ContextImpl$9.executeAction(ContextImpl.java:1759)
+	at com.install4j.runtime.installer.ContextImpl$9.fetchValue(ContextImpl.java:1749)
+	at com.install4j.runtime.installer.ContextImpl$9.fetchValue(ContextImpl.java:1746)
+	at com.install4j.runtime.installer.helper.comm.actions.FetchObjectAction.execute(FetchObjectAction.java:14)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.executeActionWrapper(HelperCommunication.java:368)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.access$200(HelperCommunication.java:31)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication$1.run(HelperCommunication.java:97)
+
+System properties:
+
+sun.desktop=windows
+awt.toolkit=sun.awt.windows.WToolkit
+java.specification.version=11
+sun.cpu.isalist=amd64
+sun.jnu.encoding=Cp1252
+java.class.path=C:\Users\Nicholas\AppData\Local\Temp\e4j8533.tmp_dir1719470489\i4jruntime.jar;C:\Users\Nicholas\AppData\Local\Temp\e4j8533.tmp_dir1719470489\user.jar;C:\Users\Nicholas\AppData\Local\Temp\e4j8533.tmp_dir1719470489\user\binary_config.jar;C:\Users\Nicholas\AppData\Local\Temp\e4j8533.tmp_dir1719470489\user\FirstPatch.jar;C:\Users\Nicholas\AppData\Local\Temp\e4j8533.tmp_dir1719470489\user\HardwareInfo.jar;C:\Users\Nicholas\AppData\Local\Temp\e4j8533.tmp_dir1719470489\user\jaxen-1.2.0.jar;C:\Users\Nicholas\AppData\Local\Temp\e4j8533.tmp_dir1719470489\user\jdom.jar;C:\Users\Nicholas\AppData\Local\Temp\e4j8533.tmp_dir1719470489\user\OdisPostInstall.jar;C:\Users\Nicholas\AppData\Local\Temp\e4j8533.tmp_dir1719470489\user\OERootFiles.jar;C:\Users\Nicholas\AppData\Local\Temp\e4j8533.tmp_dir1719470489\user\org.apache.commons.collections_3.2.2.v201511171945.jar;C:\Users\Nicholas\AppData\Local\Temp\e4j8533.tmp_dir1719470489\user\org.apache.commons.configuration_1.10.0.jar;C:\Users\Nicholas\AppData\Local\Temp\e4j8533.tmp_dir1719470489\user\org.apache.commons.io_2.6.0.v20190123-2029.jar;C:\Users\Nicholas\AppData\Local\Temp\e4j8533.tmp_dir1719470489\user\org.apache.commons.lang_2.6.0.v201404270220.jar;C:\Users\Nicholas\AppData\Local\Temp\e4j8533.tmp_dir1719470489\user\org.apache.commons.logging_1.2.0.v20180409-1502.jar;C:\Users\Nicholas\AppData\Local\Temp\e4j8533.tmp_dir1719470489\user\org.apache.logging.log4j.api_2.17.2.jar;C:\Users\Nicholas\AppData\Local\Temp\e4j8533.tmp_dir1719470489\user\org.apache.logging.log4j.core_2.17.2.jar;C:\Users\Nicholas\AppData\Local\Temp\e4j8533.tmp_dir1719470489\user\SelectCertificate.jar
+sun.awt.enableExtraMouseButtons=true
+java.vm.vendor=Eclipse Adoptium
+sun.arch.data.model=64
+install4j.exeDir=F:\ODIS-S.E\ODIS-E 17.0.1\1.ODIS-Engineering_17_0_1\
+user.variant=
+java.vendor.url=https://adoptium.net/
+install4j.systemLanguage=en
+user.timezone=America/New_York
+install4j.logTimestamps=true
+os.name=Windows 11
+java.vm.specification.version=11
+user.country=US
+sun.boot.library.path=c:\users\nicholas\appdata\local\temp\e4j8533.tmp_dir1719470489\jre\bin
+install4j.alternativeLogfile=C:\ProgramData\Diag_SetupLogs\PRD-ODISEngin_17.0.1_Install_02414020240627.log
+sun.java.command=F:\ODIS-S.E\ODIS-E 17.0.1\1.ODIS-Engineering_17_0_1\OffboardDiagSetup-Engineering_17_0_1-0102_5.exe
+jdk.debug=release
+sun.cpu.endian=little
+user.home=C:\Users\Nicholas
+exe4j.unextractedPosition=67474040
+user.language=en
+install4j.keepLog=true
+java.specification.vendor=Oracle Corporation
+java.version.date=2022-10-18
+java.home=c:\users\nicholas\appdata\local\temp\e4j8533.tmp_dir1719470489\jre
+file.separator=\
+java.vm.compressedOopsMode=Zero based
+line.separator=
+
+java.specification.name=Java Platform API Specification
+java.vm.specification.vendor=Oracle Corporation
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+exe4j.moduleName=F:\ODIS-S.E\ODIS-E 17.0.1\1.ODIS-Engineering_17_0_1\OffboardDiagSetup-Engineering_17_0_1-0102_5.exe
+exe4j.tempDir=C:\Users\Nicholas\AppData\Local\Temp\e4j8533.tmp_dir1719470489
+user.script=
+exe4j.consoleCodepage=cp0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+exe4j.isInstall4j=true
+java.runtime.version=11.0.17+8
+user.name=Nicholas
+path.separator=;
+os.version=10.0
+java.runtime.name=OpenJDK Runtime Environment
+sun.java2d.noddraw=true
+file.encoding=Cp1252
+java.vm.name=OpenJDK 64-Bit Server VM
+java.vendor.version=Temurin-11.0.17+8
+exe4j.semaphoreName=Local\f:_odis-s.e_odis-e_17.0.1_1.odis-engineering_17_0_1_offboarddiagsetup-engineering_17_0_1-0102_5.exe0
+install4j.appDir=C:\Users\Nicholas\AppData\Local\Temp\
+java.vendor.url.bug=https://github.com/adoptium/adoptium-support/issues
+java.io.tmpdir=C:\Users\Nicholas\AppData\Local\Temp\
+java.version=11.0.17
+user.dir=C:\Users\Nicholas\AppData\Local\Temp\e4j8533.tmp_dir1719470489
+os.arch=amd64
+java.vm.specification.name=Java Virtual Machine Specification
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+sun.os.patch.level=
+java.library.path=c:\users\nicholas\appdata\local\temp\e4j8533.tmp_dir1719470489\jre\bin;C:\Users\Nicholas\AppData\Local\Temp\e4j8533.tmp_dir1719470489\user;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\Nicholas\AppData\Local\Microsoft\WindowsApps;
+java.vm.info=mixed mode
+java.vendor=Eclipse Adoptium
+java.vm.version=11.0.17+8
+jdk.gtk.version=2
+sun.io.unicode.encoding=UnicodeLittle
+java.class.version=55.0
+exe4j.launchName=F:\ODIS-S.E\ODIS-E 17.0.1\1.ODIS-Engineering_17_0_1\OffboardDiagSetup-Engineering_17_0_1-0102_5.exe
